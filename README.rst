@@ -3,13 +3,13 @@ solid-dollop
 ============
 
 
-Add a short description here!
+Web scraping data engineering coding exercise for OneThree Biotech
 
 
 Description
 ===========
 
-A longer description of your project goes here...
+Ingests data from DrugBank.ca and inserts it into a PostgreSQL database
 
 
 Note
