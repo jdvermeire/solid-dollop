@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# sublime
+*.sublime-*
+
+# project specific
+test_data/
