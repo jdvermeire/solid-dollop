@@ -12,3 +12,5 @@ finally:
     del get_distribution, DistributionNotFound
 
 from .drugbank import DrugBank
+# TODO bread model into its own branch
+from .model import Actions, AltSources, DrugAltIds, Drugs, DrugTargets, Genes, create_schema
