@@ -105,8 +105,8 @@ class DrugBank(object):
         """
 
         return (
-            soup.find("meta", attrs={"name": "dc.title"})["content"],
-            soup.find("meta", attrs={"name": "description"})["content"]
+            soup.find("meta", attrs={"name": "dc.title"}).get("content"),
+            soup.find("meta", attrs={"name": "description"}).get("content")
         )
 
     # TODO when logging is added, log a warning or info if a container is not found. This is normal for some pages, but I want to log it to ensure that something expected isn't missed.

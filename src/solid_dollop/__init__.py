@@ -13,4 +13,4 @@ finally:
 
 from .drugbank import DrugBank
 # TODO bread model into its own branch
-from .model import Actions, AltSources, DrugAltIds, Drugs, DrugTargets, Genes, create_schema
+from .model import Actions, AltSources, Base, DrugAltIds, Drugs, DrugTargets, Genes
